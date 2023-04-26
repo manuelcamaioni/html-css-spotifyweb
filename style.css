@@ -5,6 +5,13 @@
     color: white;
 }
 
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
 ul{
     list-style-type: none;
 }
@@ -27,10 +34,12 @@ a{
 
 /**************************** DESKTOP FIRST **************************/
 
+
+/* NAV BAR */
 .side-bar{
     background-color: black;
 
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
     width: 300px;
     padding: 1rem;
     justify-content: space-between;
@@ -45,22 +54,20 @@ a{
     margin: .5rem 0;
 }
 
-
 .main-content{
     background-color: gray;
     width: calc(100% - 300px);
-    height: calc(100vh -120px);
+    height: calc(100vh -100px);
     overflow-y: hidden;
 }
 
-.bottom-bar{
-    height: 120px;
+.commands-bar{
+    height: 100px;
     width: 100%;
     position: absolute;
     bottom: 0;
     background-color: darkgray;
 }
-
 
 .nav-options{
     border: 1px solid red;
@@ -69,6 +76,39 @@ a{
 .bottom-options{
     border: 1px solid red;
 }
+
+/* MAIN SECTION */
+
+.upgrade{
+    background-color: blue;
+    width: 100%;
+    text-align: right;
+    padding: .5rem;
+}
+
+.upgrade button{
+    background-color: blue;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.categories{
+    background-color: green;
+    padding: .5rem 0;
+}
+
+.categories ul{
+    justify-content: center;
+}
+
+.categories ul li{
+    margin: 0 .5rem;
+    font-size: small;
+}
+
 
 @media screen and (max-width: 768){
     
