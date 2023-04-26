@@ -49,6 +49,7 @@ a{
 .side-bar{
     background-color: black;
 
+    
     height: calc(100vh - 100px);
     width: 250px;
     padding: 1rem;
@@ -67,7 +68,8 @@ a{
 .main-content{
     background-color: gray;
     width: calc(100% - 250px);
-    height: calc(100vh -100px);
+    height: calc(100vh - 100px);
+    
     overflow-y: hidden;
 }
 
