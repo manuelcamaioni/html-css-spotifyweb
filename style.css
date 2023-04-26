@@ -306,7 +306,9 @@ a{
 
 /* SMALL VIEWPORT */
 @media screen and (max-width: 600px){
-    
+    .element{
+        width: calc(100% / 2 - .5rem);
+    }
 }
 
 /* EXTRASMALL VIEWPORT */
