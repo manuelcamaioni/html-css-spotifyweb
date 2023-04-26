@@ -31,6 +31,16 @@ a{
     flex-direction: column;
 }
 
+.left{
+    float: left;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 /**************************** DESKTOP FIRST **************************/
 
@@ -40,7 +50,7 @@ a{
     background-color: black;
 
     height: calc(100vh - 100px);
-    width: 300px;
+    width: 250px;
     padding: 1rem;
     justify-content: space-between;
 }
@@ -56,7 +66,7 @@ a{
 
 .main-content{
     background-color: gray;
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
     height: calc(100vh -100px);
     overflow-y: hidden;
 }
@@ -64,8 +74,7 @@ a{
 .commands-bar{
     height: 100px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+
     background-color: darkgray;
 }
 
@@ -107,6 +116,36 @@ a{
 .categories ul li{
     margin: 0 .5rem;
     font-size: small;
+    text-transform: uppercase;
+}
+
+.recently-played, .generated-mix, .popular-artists{
+    width: 100%;
+    border: 1px solid yellow;
+    padding-left: .5rem;
+}
+
+.main-content h1{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.row{
+    width: 100%;
+}
+
+.element{
+    width: calc(100% / 6 - .5rem);
+    margin-right: .5rem;
+}
+
+
+.element img{
+    width: 100%;
+}
+
+.advice{
+    display: block;
 }
 
 

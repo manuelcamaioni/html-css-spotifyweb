@@ -14,8 +14,8 @@
 
     <title>Spotify Web App</title>
 </head>
-<body class="flex">
-    <nav class="side-bar column-flex">
+<body class="clearfix">
+    <nav class="side-bar left column-flex">
         <div class="nav-options">
             <img id="logo" src="img/logo.svg" alt="Logo di Spotify">
             <ul>
@@ -28,19 +28,67 @@
                 <a href="#">Install app</a>
         </div>
     </nav>
-    <main class="main-content">
+    <main class="main-content left">
        <section class="upgrade">
             <button>effettua l'upgrade</button>
        </section>
        <section class="categories">
             <ul class="flex">
-                <li>IN EVIDENZA</li>
-                <li>PODCAST</li>
-                <li>CLASSIFICHE</li>
-                <li>GENERI E MOOD</li>
-                <li>NUOVE USCITE</li>
-                <li>SCOPRI</li>
+                <li>in evidenza</li>
+                <li>podcast</li>
+                <li>classifiche</li>
+                <li>generi e mood</li>
+                <li>nuove uscite</li>
+                <li>scopri</li>
             </ul>
+       </section>
+
+       <section class="recently-played">
+            <h1>Recently played</h1>
+            <div class="row flex">
+                <div class="element">
+                    <img src="img/metal_lifting.jpg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/stranger.jpeg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/aquietplace.jpeg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/split.jpeg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/cure.jpeg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/sinister.jpeg" alt="">
+                </div>
+            </div>
+       </section>
+       <section class="generated-mix">
+            <h1>Creato per John Doe</h1>
+            <span class="advice">più ascolti, più accurati saranno i suggerimenti</span>
+            <div class="row flex">
+                <div class="element">
+                    <img src="img/radar.jpeg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/mixdaily.jpeg" alt="">
+                </div>
+            </div>
+       </section>
+       <section class="popular-artists">
+            <h1>Artisti più popolari</h1>
+            <span class="advice">più ascolti, più accurati saranno i suggerimenti</span>
+            <div class="row flex">
+                <div class="element">
+                    <img src="img/youg.jpeg" alt="">
+                </div>
+                <div class="element">
+                    <img src="img/einaudi.jpeg" alt="">
+                </div>
+            </div>
        </section>
     </main>
     <footer class="commands-bar">
