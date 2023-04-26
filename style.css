@@ -50,7 +50,7 @@ a{
     background-color: black;
 
     
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     width: 250px;
     padding: 1rem;
     justify-content: space-between;
@@ -68,13 +68,13 @@ a{
 .main-content{
     background-color: gray;
     width: calc(100% - 250px);
-    height: calc(100vh - 100px);
-    
-    overflow-y: hidden;
+    height: calc(100vh - 80px);
+
+    overflow-y: hidden; 
 }
 
 .commands-bar{
-    height: 100px;
+    height: 80px;
     width: 100%;
 
     background-color: darkgray;
