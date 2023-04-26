@@ -121,6 +121,14 @@ a{
     color: white;
 }
 
+.icons-viewport-xs{
+    display: none;
+
+    width: 25px;
+    height: 25px;
+    filter: invert(.4);
+}
+
 /* MAIN SECTION */
 
 .upgrade{
@@ -312,7 +320,26 @@ a{
 }
 
 /* EXTRASMALL VIEWPORT */
-@media screen and (max-width: 400px){
-    
+@media screen and (max-width: 450px){
+    .side-bar{
+        width: fit-content;
+        padding-top: 1rem;
+    }
+
+    .side-bar > *{
+        display: none;
+    }
+
+    .icons-viewport-xs{
+        display: block;
+    }
+
+    .icons-viewport-xs img{
+        margin-bottom: .5rem;
+    }
+
+    .main-content{
+        width: 100%;
+    }
 }
 
