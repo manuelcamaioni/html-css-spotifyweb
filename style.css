@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 .flex{
     display: flex;
 }
@@ -12,6 +19,12 @@
     flex-wrap: wrap;
 }
 
+.column-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
 /**************************** DESKTOP FIRST **************************/
 
 .side-bar{
@@ -19,7 +32,19 @@
 
     height: calc(100vh - 120px);
     width: 300px;
+    padding: 1rem;
+    justify-content: space-between;
 }
+
+.nav-options, .bottom-options{
+    width: 100%;
+}
+
+.nav-options #logo{
+    width: 60%;
+    margin: .5rem 0;
+}
+
 
 .main-content{
     background-color: gray;
@@ -35,4 +60,26 @@
     bottom: 0;
     background-color: darkgray;
 }
+
+
+.nav-options{
+    border: 1px solid red;
+}
+
+.bottom-options{
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 768){
+    
+}
+
+@media screen and (max-width: 576){
+    
+}
+
+@media screen and (max-width: 992){
+    
+}
+
 
