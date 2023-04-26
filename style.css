@@ -72,15 +72,6 @@ a{
     height: calc(100vh - 80px);
 }
 
-.commands-bar{
-    height: 80px;
-    width: 100%;
-
-    position: relative;
-
-    background-color: #282828;
-}
-
 .nav-options{
     border: 1px solid red;
 }
@@ -151,6 +142,100 @@ a{
     display: block;
     margin-bottom: .5rem;
 }
+
+/* FOOTER SECTION */
+
+.commands-bar{
+    height: 80px;
+    width: 100%;
+    position: relative;
+
+    background-color: #282828;
+}
+
+.command-box{
+    width: calc(100% / 3);
+    height: 100%;
+    border: 1px solid red;
+}
+
+.song-info{
+    align-items: center;
+    padding: .5rem;
+}
+
+.song-info > *{
+    margin-right: .5rem;
+}
+
+.song-info img{
+    width: 40px;
+    height: 40px;
+}
+
+.title-song{
+    font-size: .5rem;
+}
+
+.icons i{
+    margin: 0 .1rem 0 .5rem;
+}
+
+.command-icons, .time-bar{
+    height: 50%;
+    width: 100%;
+    border: 1px solid yellow;
+}
+
+.command-icons{
+    align-items: center;
+    justify-content: center;
+}
+
+.command-icons i{
+    margin: 0 .5rem;
+}
+
+.time-bar{
+    align-items: center;
+    justify-content: space-around;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.bar-lenght{
+    width: 75%;
+    height: 4px;
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+.progress-bar{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.volume-options{
+    align-items: center;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+
+.volume-options > *{
+    margin-left: .5rem;
+}
+
+.volume-bar{
+    width: 30%;
+    height: 4px;
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+
+
 
 /* MEDIUM VIEWPORT */
 @media screen and (max-width: 800px){
