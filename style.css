@@ -131,7 +131,7 @@ a{
 
 .upgrade button{
     background-color: #080b12;
-    margin: 1rem 0;
+    margin: 1rem .5rem 1rem 0;
     text-transform: uppercase;
     padding: .5rem 2rem;
     border: 1px solid white;
@@ -160,8 +160,8 @@ a{
 
 .main-content h1{
     font-weight: 700;
-    font-size: 1.25rem;
     margin: 1rem 0;
+    color: white;
 }
 
 .row{
@@ -171,16 +171,27 @@ a{
 .element{
     width: calc(100% / 6 - .5rem);
     margin-right: .5rem;
+    text-align: center;
 }
-
 
 .element img{
     width: 100%;
 }
 
+.element h2{
+    color: white;
+    font-size: 100%;
+    margin: .5rem 0;
+}
+
+.element h3{
+    font-size: 90%;
+}
+
 .advice{
     display: block;
-    margin-bottom: .5rem;
+    margin: 1rem 0;
+    font-size: .8rem;
 }
 
 /* FOOTER SECTION */
