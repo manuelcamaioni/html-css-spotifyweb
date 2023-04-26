@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: #a3a3a3;
 }
 
 body{
@@ -31,16 +31,6 @@ a{
     flex-direction: column;
 }
 
-.left{
-    float: left;
-}
-
-.clearfix{
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .scroll{
     overflow-y:scroll;
 }
@@ -52,9 +42,9 @@ a{
     background-color: black;
 
     height: calc(100vh - 80px);
-    width: 250px;
-    padding: 1rem;
+    width: 200px;
     justify-content: space-between;
+    padding: 0 .75rem;
 }
 
 .nav-options, .bottom-options{
@@ -62,22 +52,73 @@ a{
 }
 
 .nav-options #logo{
-    width: 60%;
     margin: .5rem 0;
+    text-align: left;
+    width: 80%;
+}
+
+.nav-main-commands{
+    margin-bottom: 2rem;
+}
+
+.nav-options li{
+    margin: .4rem 0;
+    align-items: center;
+    font-size: .9rem;
+}
+
+.nav-options h1{
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.nav-options img:not(#logo), .download img{
+    width: 25px;
+    height: 25px;
+    margin-right: .2rem;
+    filter: invert(.4);
+}
+
+.playlists i{
+    margin-right: .2rem;
 }
 
 .main-content{
     background-color: #141922;
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     height: calc(100vh - 80px);
 }
 
-.nav-options{
-    border: 1px solid red;
+.download{
+    padding: .5rem 0;
+    width: 100%;
+    border-bottom: 1px solid #a3a3a3;
 }
 
-.bottom-options{
-    border: 1px solid red;
+.download a{
+    align-items: center;
+}
+
+.user{
+    padding: .5rem 0;
+    width: 100%;
+    align-items: center;
+}
+
+.user img{
+    filter: invert(0);
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.user h2{
+    font-size: 1rem;
+    color: white;
 }
 
 /* MAIN SECTION */
@@ -86,7 +127,6 @@ a{
     background-color: #080b12;
     width: 100%;
     text-align: right;
-    padding: .5rem;
 }
 
 .upgrade button{
@@ -156,7 +196,6 @@ a{
 .command-box{
     width: calc(100% / 3);
     height: 100%;
-    border: 1px solid red;
 }
 
 .song-info{
@@ -184,12 +223,12 @@ a{
 .command-icons, .time-bar{
     height: 50%;
     width: 100%;
-    border: 1px solid yellow;
 }
 
 .command-icons{
     align-items: center;
     justify-content: center;
+    padding-top: .5rem;
 }
 
 .command-icons i{
@@ -201,6 +240,7 @@ a{
     justify-content: space-around;
     font-size: .7rem;
     font-weight: bold;
+    padding-bottom: .5rem;
 }
 
 .bar-lenght{
@@ -224,7 +264,7 @@ a{
 }
 
 .volume-options > *{
-    margin-left: .5rem;
+    margin-left: .7rem;
 }
 
 .volume-bar{
