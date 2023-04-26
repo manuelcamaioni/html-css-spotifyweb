@@ -59,7 +59,7 @@ a{
     width: 100%;
 }
 
-.nav-options #logo{
+.nav-options .logo{
     margin: .5rem 0;
     text-align: left;
     width: 80%;
@@ -91,7 +91,7 @@ a{
     margin-bottom: .5rem;
 }
 
-.nav-options img:not(#logo){
+.nav-options img:not(.logo){
     width: 25px;
     height: 25px;
     margin-right: .2rem;
@@ -103,7 +103,7 @@ a{
     margin-right: .2rem;
 }
 
-#search, #library{
+.search, .library{
     filter: invert(.4);
 }
 
@@ -401,6 +401,14 @@ a{
 
     .icons i{
         margin: 0 .2rem .3rem .3rem;
+    }
+
+    .icons-viewport-xs{
+            filter: invert(0);
+    }
+
+    .small-library, .small-search{
+        filter: invert(.4);
     }
 
     
