@@ -41,7 +41,9 @@ a{
     clear: both;
 }
 
-
+.scroll{
+    overflow-y:scroll;
+}
 /**************************** DESKTOP FIRST **************************/
 
 
@@ -49,7 +51,6 @@ a{
 .side-bar{
     background-color: black;
 
-    
     height: calc(100vh - 80px);
     width: 250px;
     padding: 1rem;
@@ -66,18 +67,18 @@ a{
 }
 
 .main-content{
-    background-color: gray;
+    background-color: #141922;
     width: calc(100% - 250px);
     height: calc(100vh - 80px);
-
-    overflow-y: hidden; 
 }
 
 .commands-bar{
     height: 80px;
     width: 100%;
 
-    background-color: darkgray;
+    position: relative;
+
+    background-color: #282828;
 }
 
 .nav-options{
@@ -91,14 +92,14 @@ a{
 /* MAIN SECTION */
 
 .upgrade{
-    background-color: blue;
+    background-color: #080b12;
     width: 100%;
     text-align: right;
     padding: .5rem;
 }
 
 .upgrade button{
-    background-color: blue;
+    background-color: #080b12;
     margin: 1rem 0;
     text-transform: uppercase;
     padding: .5rem 2rem;
@@ -107,7 +108,6 @@ a{
 }
 
 .categories{
-    background-color: green;
     padding: .5rem 0;
 }
 
@@ -123,13 +123,14 @@ a{
 
 .recently-played, .generated-mix, .popular-artists{
     width: 100%;
-    border: 1px solid yellow;
     padding-left: .5rem;
+    margin-top: 2rem;
 }
 
 .main-content h1{
     font-weight: 700;
     font-size: 1.25rem;
+    margin: 1rem 0;
 }
 
 .row{
@@ -148,19 +149,32 @@ a{
 
 .advice{
     display: block;
+    margin-bottom: .5rem;
 }
 
+/* MEDIUM VIEWPORT */
+@media screen and (max-width: 800px){
+    .element{
+        width: calc(100% / 4 - .5rem);
+        margin-bottom: 1rem;
+    }
 
-@media screen and (max-width: 768){
+    .categories ul{
+        flex-wrap: wrap;
+    }
+
+    .categories ul li{
+        margin: 0 .5rem 1rem;
+    }
+}
+
+/* SMALL VIEWPORT */
+@media screen and (max-width: 600px){
     
 }
 
-@media screen and (max-width: 576){
+/* EXTRASMALL VIEWPORT */
+@media screen and (max-width: 400px){
     
 }
-
-@media screen and (max-width: 992){
-    
-}
-
 
