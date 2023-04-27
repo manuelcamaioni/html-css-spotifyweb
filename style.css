@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #a3a3a3;
 }
 
-body{
+body {
     font-family: 'Cabin', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -14,41 +14,44 @@ body{
     min-width: 384px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.flex{
+
+.flex {
     display: flex;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.column-flex{
+.column-flex {
     display: flex;
     flex-direction: column;
 }
 
-.scroll{
-    overflow-y:scroll;
+.scroll {
+    overflow-y: scroll;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
+
 /**************************** DESKTOP FIRST **************************/
 
 
 /* NAV BAR */
-.side-bar{
+.side-bar {
     background-color: black;
 
     height: calc(100vh - 80px);
@@ -57,59 +60,61 @@ a{
     padding: 0 1rem;
 }
 
-.nav-options, .bottom-options{
+.nav-options,
+.bottom-options {
     width: 100%;
 }
 
-.nav-options .logo{
+.nav-options .logo {
     margin: .5rem 0;
     text-align: left;
     width: 80%;
 }
 
-.nav-main-commands{
+.nav-main-commands {
     margin-bottom: 2rem;
 }
 
-.home-link{
+.home-link {
     color: white;
 }
 
-.nav-options li{
+.nav-options li {
     margin: .4rem 0;
     align-items: center;
     font-size: .9rem;
 }
 
-.playlists li{
+.playlists li {
     font-size: .8rem;
     margin: .8rem 0;
 }
 
-.nav-options h1{
+.nav-options h1 {
     text-transform: uppercase;
     font-size: 1rem;
     color: white;
     margin-bottom: .8rem;
 }
 
-.nav-options img:not(.logo){
+.nav-options img:not(.logo) {
     width: 25px;
     height: 25px;
     margin-right: .2rem;
 }
 
-.download img{
+.download img {
     width: 15px;
     height: 15px;
     margin-right: .2rem;
 }
 
-.search, .library{
+.search,
+.library {
     filter: invert(.4);
 }
 
-.green-bar{
+.green-bar {
     height: 25px;
     width: 4px;
 
@@ -117,7 +122,7 @@ a{
     background-color: #adff2f;
 }
 
-.categories .green-bar{
+.categories .green-bar {
     bottom: -6px;
     height: 2px;
     width: 30px;
@@ -127,35 +132,35 @@ a{
 
 }
 
-.playlists i{
+.playlists i {
     margin-right: .2rem;
     font-size: 2rem;
 }
 
-.main-content{
+.main-content {
     background-color: #141922;
     width: calc(100% - 200px);
     height: calc(100vh - 80px);
 }
 
-.download{
+.download {
     padding: .5rem 0;
     width: 100%;
     border-bottom: 1px solid #a3a3a3;
     font-size: .7rem;
 }
 
-.download a{
+.download a {
     align-items: center;
 }
 
-.user{
+.user {
     padding: .5rem 0;
     width: 100%;
     align-items: center;
 }
 
-.user img{
+.user img {
     filter: invert(0);
     width: 25px;
     height: 25px;
@@ -164,12 +169,12 @@ a{
     margin-right: .5rem;
 }
 
-.user h2{
+.user h2 {
     font-size: 1rem;
     color: white;
 }
 
-.icons-viewport-xs{
+.icons-viewport-xs {
     display: none;
 
     width: 25px;
@@ -179,13 +184,13 @@ a{
 
 /* MAIN SECTION */
 
-.upgrade{
+.upgrade {
     background-color: #080b12;
     width: 100%;
     text-align: right;
 }
 
-.upgrade button{
+.upgrade button {
     background-color: #080b12;
     margin: 1rem .5rem 1rem 0;
     text-transform: uppercase;
@@ -195,58 +200,60 @@ a{
     transition: all 1s;
 }
 
-.categories{
+.categories {
     padding: .5rem 0;
 }
 
-.categories ul{
+.categories ul {
     justify-content: center;
 }
 
-.categories ul li{
+.categories ul li {
     margin: 0 .5rem;
     font-size: small;
     text-transform: uppercase;
 }
 
-.recently-played, .generated-mix, .popular-artists{
+.recently-played,
+.generated-mix,
+.popular-artists {
     width: 100%;
     padding-left: .5rem;
     margin-top: 2rem;
 }
 
-.main-content h1{
+.main-content h1 {
     font-weight: 700;
     margin: 1rem 0 .5rem 0;
     color: white;
 }
 
-.row{
+.row {
     width: 100%;
 }
 
-.element{
+.element {
     width: calc(100% / 6 - .5rem);
     margin-right: .5rem;
     text-align: center;
 }
 
-.img-container img{
+.img-container img {
     width: 100%;
     display: block;
 }
 
-.element h2{
+.element h2 {
     color: white;
     font-size: 100%;
     margin: .5rem 0;
 }
 
-.element h3{
+.element h3 {
     font-size: 90%;
 }
 
-.advice{
+.advice {
     display: block;
     margin: .5rem 0 1rem 0;
     font-size: .8rem;
@@ -254,7 +261,7 @@ a{
 
 /* FOOTER SECTION */
 
-.commands-bar{
+.commands-bar {
     height: 80px;
     width: 100%;
     position: relative;
@@ -262,57 +269,58 @@ a{
     background-color: #282828;
 }
 
-.commands-bar i:not(.icons i){
+.commands-bar i:not(.icons i) {
     color: white;
 }
 
-.command-box{
+.command-box {
     width: calc(100% / 3);
     height: 100%;
 }
 
-.song-info{
+.song-info {
     align-items: center;
     padding: .5rem;
 }
 
-.song-info > *{
+.song-info>* {
     margin-right: .8rem;
 }
 
-.song-info img{
+.song-info img {
     width: 40px;
     height: 40px;
 }
 
-.title-song{
+.title-song {
     font-size: .5rem;
 }
 
-.title-song h1{
+.title-song h1 {
     color: white;
 }
 
-.icons i{
+.icons i {
     margin: 0 .2rem 0 .5rem;
 }
 
-.command-icons, .time-bar{
+.command-icons,
+.time-bar {
     height: 50%;
     width: 100%;
 }
 
-.command-icons{
+.command-icons {
     align-items: center;
     justify-content: center;
     padding-top: .5rem;
 }
 
-.command-icons i{
+.command-icons i {
     margin: 0 .5rem;
 }
 
-.time-bar{
+.time-bar {
     align-items: center;
     justify-content: space-around;
     font-size: .7rem;
@@ -320,146 +328,147 @@ a{
     padding-bottom: .5rem;
 }
 
-.time-bar span{
+.time-bar span {
     display: block;
 }
 
-.bar-lenght{
+.bar-lenght {
     width: 75%;
     height: 4px;
     background-color: gray;
     border-radius: 1rem;
 }
 
-.progress-bar{
+.progress-bar {
     background-color: white;
     width: 20%;
     height: 100%;
     border-radius: 1rem;
 }
 
-.volume-options{
+.volume-options {
     align-items: center;
     justify-content: flex-end;
     padding: .5rem;
 }
 
-.volume-options > *{
+.volume-options>* {
     margin-left: .7rem;
 }
 
-.volume-bar{
+.volume-bar {
     width: 30%;
     height: 4px;
     background-color: gray;
     border-radius: 1rem;
 }
 
-.popular-artists .img-container{
+.popular-artists .img-container {
     border-radius: 50%;
     overflow: hidden;
-   
+
 }
 
-.popular-artists img{
+.popular-artists img {
     border-radius: 50%;
-    
+
 }
 
 /* MEDIUM VIEWPORT */
-@media screen and (max-width: 800px){
-    .element{
+@media screen and (max-width: 800px) {
+    .element {
         width: calc(100% / 4 - .5rem);
         margin-bottom: 1rem;
     }
 
-    .categories ul{
+    .categories ul {
         flex-wrap: wrap;
     }
 
-    .categories ul li{
+    .categories ul li {
         margin: 0 .5rem 1rem;
     }
 }
 
 /* SMALL VIEWPORT */
-@media screen and (max-width: 600px){
-    .element{
+@media screen and (max-width: 600px) {
+    .element {
         width: calc(100% / 2 - .5rem);
     }
 
-    .icons i{
+    .icons i {
         margin: 0 .2rem .3rem .5rem;
     }
 }
 
 /* EXTRASMALL VIEWPORT */
-@media screen and (max-width: 450px){
-    .side-bar{
+@media screen and (max-width: 450px) {
+    .side-bar {
         width: fit-content;
         padding-top: 1rem;
     }
 
-    .main-content{
+    .main-content {
         width: 100%;
     }
 
-    .side-bar > *{
+    .side-bar>* {
         display: none;
     }
 
-    .icons-viewport-xs{
+    .icons-viewport-xs {
         display: block;
     }
 
-    .icons-viewport-xs img{
+    .icons-viewport-xs img {
         margin-bottom: .5rem;
     }
 
-    .icons i{
+    .icons i {
         margin: 0 .2rem .3rem .3rem;
     }
 
-    .icons-viewport-xs{
-            filter: invert(0);
+    .icons-viewport-xs {
+        filter: invert(0);
     }
 
-    .small-library, .small-search{
+    .small-library,
+    .small-search {
         filter: invert(.4);
     }
 
-    .commands-bar > :nth-child(2){
+    .commands-bar> :nth-child(2) {
         margin-left: 1rem;
     }
 
-    .title-song{
+    .title-song {
         margin-right: .2rem;
     }
 
-    
+
 }
 
 
 /******************* HOVER *****************/
 
-.upgrade button:hover{
+.upgrade button:hover {
     scale: 1.1;
 }
 
-.upgrade button:hover a{
+.upgrade button:hover a {
     color: white;
 }
 
-.categories li a:hover{
+.categories li a:hover {
     color: white;
     transition: color .5s;
 }
 
-.hover-cover{
+.hover-cover {
     position: absolute;
     top: 0;
     bottom: 0;
-    
+
 
     width: 100%;
     height: 100%;
@@ -467,11 +476,11 @@ a{
     display: none;
 }
 
-.element .img-container:hover .hover-cover{
+.element .img-container:hover .hover-cover {
     display: block;
 }
 
-.element i{
+.element i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -482,43 +491,45 @@ a{
     display: none;
 }
 
-.element .img-container:hover .fa-circle-play{
+.element .img-container:hover .fa-circle-play {
     display: block;
 }
 
-.side-bar li:hover a, .download:hover a{
-    color:white;
+.side-bar li:hover a,
+.download:hover a {
+    color: white;
 }
 
-.side-bar li:hover img{
+.side-bar li:hover img {
     filter: invert(0);
 }
 
-.side-bar li:hover .fa-square-plus{
+.side-bar li:hover .fa-square-plus {
     color: white;
 }
 
-.commands-bar .icons i:hover{
+.commands-bar .icons i:hover {
     color: white;
 }
 
-.title-song h2:hover a{
+.title-song h2:hover a {
     color: white;
     text-decoration: underline;
 }
-.title-song h1 a{
+
+.title-song h1 a {
     color: white;
 }
 
-.command-icons .fa-circle-play:hover{
+.command-icons .fa-circle-play:hover {
     scale: 1.1;
 }
 
-.progress-bar:hover{
+.progress-bar:hover {
     background-color: #adff2f;
 }
 
-.fa-circle{
+.fa-circle {
     right: 0px;
     top: 50%;
     transform: translateY(-50%);
@@ -526,12 +537,12 @@ a{
 
     visibility: hidden;
 }
-.progress-bar:hover .fa-circle{
+
+.progress-bar:hover .fa-circle {
     visibility: visible;
 }
 
-.volume-bar .fa-circle, .time-bar .fa-circle{
+.volume-bar .fa-circle,
+.time-bar .fa-circle {
     font-size: .6rem;
 }
-
-
