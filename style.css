@@ -69,7 +69,7 @@ a{
     margin-bottom: 2rem;
 }
 
-.home a{
+.home-link{
     color: white;
 }
 
@@ -190,6 +190,7 @@ a{
     padding: .5rem 2rem;
     border: 1px solid white;
     border-radius: 1rem;
+    transition: all 1s;
 }
 
 .categories{
@@ -418,14 +419,12 @@ a{
 
 /******************* HOVER *****************/
 
-.upgrade:hover button {
-    font-size: .9rem;
-    transition: all 1s;
+.upgrade button:hover{
+    font-size: 1rem;
 }
 
-.upgrade:hover a{
+.upgrade button:hover a{
     color: white;
-    transition: color 1s;
 }
 
 .categories li a:hover{
@@ -461,3 +460,45 @@ a{
 .element .img-container:hover .fa-circle-play{
     display: block;
 }
+
+.side-bar li:hover a, .download:hover a{
+    color:white;
+}
+
+.side-bar li:hover .fa-square-plus{
+    color: white;
+}
+
+.commands-bar .icons i:hover{
+    color: white;
+}
+
+.title-song h2:hover a{
+    color: white;
+    text-decoration: underline;
+}
+.title-song h1 a{
+    color: white;
+}
+
+.command-icons .fa-circle-play:hover{
+    font-size: 1.7rem;
+}
+
+.progress-bar:hover{
+    background-color: #adff2f;
+}
+
+.fa-circle{
+    right: -2px;
+    top: 40%;
+    transform: translateY(0);
+
+    visibility: hidden;
+}
+.progress-bar:hover .fa-circle{
+    visibility: visible;
+}
+
+
+

@@ -27,7 +27,7 @@
                 <ul class="nav-main-commands">
                     <li class="flex">
                         <div class="green-bar absolute"></div>
-                        <img class="home" src="img/home.svg" alt="Icona della home"> <a href="#">Home</a>
+                        <img class="home" src="img/home.svg" alt="Icona della home"> <a class="home-link" href="#">Home</a>
                     </li>
                     <li class="flex">
                         <img class="search" src="img/search.svg" alt="Icona della ricerca"> <a href="#">Cerca</a>
@@ -40,7 +40,8 @@
                 <h1>playlist</h1>
                 <ul class="playlists">
                     <li class="flex">
-                        <i class="fa-solid fa-square-plus fa-xl"></i> <a href="#">Crea Playlist</a>
+                        <i class="fa-solid fa-square-plus fa-xl"></i>
+                        <a href="#">Crea Playlist</a>
                     </li>
                     <li><a href="#">Nome Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
@@ -96,10 +97,10 @@
                         <div class="img-container relative">
                             <img src="img/metal_lifting.jpg" alt="immagine di copertina gruppi metal">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
-
+                            <a href="#">
+                                <i class="fa-regular fa-circle-play fa-xl"></i>
+                            </a>
                         </div>
-                        
                         <h2>
                             Heavy Metal
                         </h2>
@@ -111,7 +112,9 @@
                         <div class="img-container relative">
                             <img src="img/stranger.jpeg" alt="immagine di copertina di stranger things">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#">
+                                <i class="fa-regular fa-circle-play fa-xl"></i>
+                            </a>
                         </div>
                         <h2>
                             Stranger Things, Vol. 1 (a Netflix Original Soundtrack)
@@ -124,7 +127,9 @@
                         <div class="img-container relative">
                             <img src="img/aquietplace.jpeg" alt="immagine di copertina di a quiet place">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#">
+                                <i class="fa-regular fa-circle-play fa-xl"></i>
+                            </a>
                         </div>
                         <h2>
                             A quiet place
@@ -137,7 +142,9 @@
                         <div class="img-container relative">
                             <img src="img/split.jpeg" alt="immagine di copertina di split">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#">
+                                <i class="fa-regular fa-circle-play fa-xl"></i>
+                            </a>
                         </div>
                         
                         <h2>
@@ -151,7 +158,9 @@
                         <div class="img-container relative">
                            <img src="img/cure.jpeg" alt="immagine di copertina di a cure for wellness">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#">
+                                <i class="fa-regular fa-circle-play fa-xl"></i>
+                            </a>
                         </div>
                         <h2>
                             A cure for wellness
@@ -164,7 +173,7 @@
                         <div class="img-container relative">
                            <img src="img/sinister.jpeg" alt="immagine di copertina di sinister">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#"><i class="fa-regular fa-circle-play fa-xl"></i></a>
                         </div>
                         <h2>
                             Sinister
@@ -184,7 +193,7 @@
                         <div class="img-container relative">
                             <img src="img/radar.jpeg" alt="Immagine radar">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#"><i class="fa-regular fa-circle-play fa-xl"></i></a>
                          </div>
                         
                         <h2>Release radar</h2>
@@ -193,7 +202,7 @@
                         <div class="img-container relative">
                             <img src="img/mixdaily.jpeg" alt="Immagine daily mix">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#"><i class="fa-regular fa-circle-play fa-xl"></i></a>
                          </div>
                         <h2>Daily Mix 1</h2>
                     </div>
@@ -208,7 +217,7 @@
                         <div class="img-container relative">
                             <img src="img/youg.jpeg" alt="Immagine di copertina di Lana del Rey">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#"><i class="fa-regular fa-circle-play fa-xl"></i></a>
                          </div>
                         
                         <h2>Lana del Rey</h2>
@@ -217,7 +226,7 @@
                         <div class="img-container relative">
                             <img src="img/einaudi.jpeg" alt="Immagine di copertina di Ludovico Einaudi">
                             <div class="hover-cover"></div>
-                            <i class="fa-regular fa-circle-play fa-xl"></i>
+                            <a href="#"><i class="fa-regular fa-circle-play fa-xl"></i></a>
                          </div>
                         
                         <h2>Ludovico Einaudi</h2>
@@ -232,36 +241,48 @@
         <div class="command-box song-info flex">
             <img src="img/sinister.jpeg" alt="immagine di copertina di sinister">
             <div class="title-song">
-                <h1>Sinister</h1>
-                <h2>Brano nome</h2>
+                <h1><a href="#">Sinister</a></h1>
+                <h2><a href="#">Brano nome</a></h2>
             </div>
             <div class="icons flex wrap">
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-folder"></i>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-folder"></i>
+                </a>
             </div>
         </div>
         <div class="command-box">
             <div class="command-icons flex">
-                <i class="fa-solid fa-shuffle fa-sm"></i>
-                <i class="fa-solid fa-backward-step fa-sm"></i>
-                <i class="fa-regular fa-circle-play fa-xl"></i>
-                <i class="fa-solid fa-forward-step fa-sm"></i>
-                <i class="fa-solid fa-arrow-rotate-left fa-sm"></i>
+                <a href="#"><i class="fa-solid fa-shuffle fa-sm"></i></a>
+                <a href="#"><i class="fa-solid fa-backward-step fa-sm"></i></a>
+                <a href="#"><i class="fa-regular fa-circle-play fa-xl"></i></a>
+                <a href="#"><i class="fa-solid fa-forward-step fa-sm"></i></a>
+                <a href="#"><i class="fa-solid fa-arrow-rotate-left fa-sm"></i></a>
             </div>
             <div class="time-bar flex">
                 <span>0:25</span>
                 <div class="bar-lenght">
-                    <div class="progress-bar"></div>
+                    <a href="#">
+                        <div class="progress-bar relative">
+                            <i class="fa-solid fa-circle fa-xs absolute"></i>
+                        </div>
+                    </a>
                 </div>
                 <span>4:35</span>
             </div>
         </div>
         <div class="command-box volume-options flex">
-            <i class="fa-solid fa-list-ul fa-sm"></i>
-            <i class="fa-solid fa-display fa-sm"></i>
-            <i class="fa-solid fa-volume-high fa-sm"></i>
+            <a href="#"><i class="fa-solid fa-list-ul fa-sm"></i></a>
+            <a href="#"><i class="fa-solid fa-display fa-sm"></i></a>
+            <a href="#"><i class="fa-solid fa-volume-high fa-sm"></i></a>
             <div class="volume-bar">
-                <div class="progress-bar"></div>
+                <a href="#">
+                    <div class="progress-bar relative">
+                        <i class="fa-solid fa-circle fa-xs absolute"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </footer>
