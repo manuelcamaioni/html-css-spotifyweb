@@ -90,6 +90,11 @@ a {
     margin: .8rem 0;
 }
 
+.playlists li:first-child:not(i){
+    font-size: .9rem;
+    margin: 1.2rem 0;
+}
+
 .nav-options h1 {
     text-transform: uppercase;
     font-size: 1rem;
@@ -104,9 +109,9 @@ a {
 }
 
 .download img {
-    width: 15px;
-    height: 15px;
-    margin-right: .2rem;
+    width: 20px;
+    height: 20px;
+    margin-right: .6rem;
 }
 
 .search,
@@ -123,13 +128,12 @@ a {
 }
 
 .categories .green-bar {
-    bottom: -6px;
     height: 2px;
     width: 30px;
-
+    
+    bottom: -6px;
     left: 50%;
     transform: translate(-50%, 0);
-
 }
 
 .playlists i {
@@ -147,7 +151,7 @@ a {
     padding: .5rem 0;
     width: 100%;
     border-bottom: 1px solid #a3a3a3;
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .download a {
@@ -192,7 +196,7 @@ a {
 
 .upgrade button {
     background-color: #080b12;
-    margin: 1rem .5rem 1rem 0;
+    margin: 1rem 1rem 1rem 0;
     text-transform: uppercase;
     padding: .5rem 2rem;
     border: 1px solid white;
