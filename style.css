@@ -490,6 +490,10 @@ a{
     color:white;
 }
 
+.side-bar li:hover img{
+    filter: invert(0);
+}
+
 .side-bar li:hover .fa-square-plus{
     color: white;
 }
