@@ -351,7 +351,10 @@ a{
 }
 
 
-
+.popular-artists .img-container{
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 /* MEDIUM VIEWPORT */
 @media screen and (max-width: 800px){
