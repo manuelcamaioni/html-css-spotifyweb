@@ -458,6 +458,6 @@ a{
     display: none;
 }
 
-.element .img-container:hover .element i{
+.element .img-container:hover .fa-circle-play{
     display: block;
 }
