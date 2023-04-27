@@ -320,6 +320,10 @@ a{
     padding-bottom: .5rem;
 }
 
+.time-bar span{
+    display: block;
+}
+
 .bar-lenght{
     width: 75%;
     height: 4px;
