@@ -69,10 +69,9 @@ a{
     margin-bottom: 2rem;
 }
 
-.nav-main-commands :first-child{
+.home a{
     color: white;
 }
-
 
 .nav-options li{
     margin: .4rem 0;
@@ -82,6 +81,7 @@ a{
 
 .playlists li{
     font-size: .8rem;
+    margin: .8rem 0;
 }
 
 .nav-options h1{
