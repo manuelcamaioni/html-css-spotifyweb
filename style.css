@@ -436,8 +436,6 @@ a{
 .hover-cover{
     position: absolute;
     top: 0;
-    right: 0;
-    left: 0;
     bottom: 0;
 
     width: 100%;
@@ -446,5 +444,20 @@ a{
 }
 
 .element .img-container:hover .hover-cover{
+    display: block;
+}
+
+.element i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    display: none;
+}
+
+.element .img-container:hover .element i{
     display: block;
 }
