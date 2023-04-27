@@ -52,7 +52,7 @@ a{
     height: calc(100vh - 80px);
     width: 200px;
     justify-content: space-between;
-    padding: 0 .75rem;
+    padding: 0 1rem;
 }
 
 .nav-options, .bottom-options{
@@ -88,7 +88,7 @@ a{
     text-transform: uppercase;
     font-size: 1rem;
     color: white;
-    margin-bottom: .5rem;
+    margin-bottom: .8rem;
 }
 
 .nav-options img:not(.logo){
@@ -127,6 +127,7 @@ a{
 
 .playlists i{
     margin-right: .2rem;
+    font-size: 2rem;
 }
 
 .main-content{
@@ -272,7 +273,7 @@ a{
 }
 
 .song-info > *{
-    margin-right: .5rem;
+    margin-right: .8rem;
 }
 
 .song-info img{
