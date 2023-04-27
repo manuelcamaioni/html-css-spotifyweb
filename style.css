@@ -10,6 +10,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
+
+    min-width: 384px;
 }
 
 ul{
@@ -411,6 +413,14 @@ a{
 
     .small-library, .small-search{
         filter: invert(.4);
+    }
+
+    .commands-bar > :nth-child(2){
+        margin-left: 1rem;
+    }
+
+    .title-song{
+        margin-right: .2rem;
     }
 
     
