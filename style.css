@@ -511,9 +511,9 @@ a{
 }
 
 .fa-circle{
-    right: -2px;
-    top: 40%;
-    transform: translateY(0);
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 1rem;
 
     visibility: hidden;
