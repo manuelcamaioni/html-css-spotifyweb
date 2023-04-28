@@ -178,12 +178,16 @@ a {
     color: white;
 }
 
-.icons-viewport-xs {
+.upper-icons-vw-xs {
     display: none;
 
     width: 25px;
     height: 25px;
     filter: invert(.4);
+}
+
+.lower-icons-vw-xs{
+    display: none;
 }
 
 /* MAIN SECTION */
@@ -409,7 +413,8 @@ a {
 @media screen and (max-width: 450px) {
     .side-bar {
         width: fit-content;
-        padding-top: 1rem;
+        padding: 1rem .8rem;
+       
     }
 
     .main-content {
@@ -420,11 +425,32 @@ a {
         display: none;
     }
 
-    .icons-viewport-xs {
+    .upper-icons-vw-xs{
         display: block;
+        filter: invert(0);
+        align-items: center;
     }
 
-    .icons-viewport-xs img {
+    .lower-icons-vw-xs{
+        display: inline-block;
+        align-items:center;
+    }
+
+    .lower-icons-vw-xs .small-download{
+        width: 20px;
+        height: 20px;
+        margin-bottom: .5rem;
+    }
+
+    .lower-icons-vw-xs .small-user{
+        width: 25px;
+        height: 25px;
+        filter: invert(0);
+        background-color: gray;
+        border-radius: 50%;
+    }
+
+    .upper-icons-vw-xs img {
         margin-bottom: .5rem;
     }
 
@@ -432,16 +458,12 @@ a {
         margin: 0 .2rem .3rem .3rem;
     }
 
-    .icons-viewport-xs {
-        filter: invert(0);
-    }
-
     .small-library,
     .small-search {
         filter: invert(.4);
     }
 
-    .commands-bar> :nth-child(2) {
+    .commands-bar > :nth-child(2) {
         margin-left: 1rem;
     }
 
@@ -502,6 +524,10 @@ a {
 .side-bar li:hover a,
 .download:hover a {
     color: white;
+}
+
+.upper-icons-vw-xs a:hover img, .lower-icons-vw-xs a:hover img{
+    filter: invert(0);
 }
 
 .side-bar li:hover img {
